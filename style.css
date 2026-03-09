@@ -1,6 +1,7 @@
 body {
     background-color: #000000; /* Pure Black Background */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Updated to Montserrat */
+    font-family: 'Montserrat', sans-serif; 
     display: flex;
     justify-content: center;
     padding: 40px 20px;
@@ -13,13 +14,12 @@ body {
     text-align: center;
 }
 
-/* Style for the image you added earlier */
 .profile-img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #D4AF37; /* Gold border around your photo */
+    border: 2px solid #D4AF37; 
     margin-bottom: 15px;
 }
 
@@ -31,8 +31,9 @@ h1 {
 }
 
 p {
+    /* Italics preserved here */
     font-style: italic;
-    color: #C5A028; /* Slightly darker gold for the subtitle */
+    color: #C5A028; 
     margin-bottom: 30px;
 }
 
@@ -45,7 +46,7 @@ p {
 .link-btn {
     text-decoration: none;
     color: #D4AF37; 
-    border: 1px solid #D4AF37; /* Gold outlines for buttons */
+    border: 1px solid #D4AF37; 
     padding: 15px;
     border-radius: 4px;
     transition: 0.3s;
@@ -54,11 +55,10 @@ p {
 }
 
 .link-btn:hover {
-    background-color: #D4AF37; /* Invert colors on hover */
+    background-color: #D4AF37; 
     color: #000000;
 }
 
-/* Specific styling for your main website link */
 .website {
     background-color: #D4AF37;
     color: #000;
