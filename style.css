@@ -1,10 +1,10 @@
 body {
-    background-color: #fafafa;
+    background-color: #000000; /* Pure Black Background */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     padding: 40px 20px;
-    color: #333;
+    color: #D4AF37; /* Metallic Gold Font */
 }
 
 .container {
@@ -13,20 +13,26 @@ body {
     text-align: center;
 }
 
-.logo-placeholder {
-    font-size: 50px;
-    margin-bottom: 10px;
+/* Style for the image you added earlier */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #D4AF37; /* Gold border around your photo */
+    margin-bottom: 15px;
 }
 
 h1 {
     font-size: 1.5rem;
     letter-spacing: 2px;
     text-transform: uppercase;
+    color: #D4AF37; 
 }
 
 p {
     font-style: italic;
-    color: #888;
+    color: #C5A028; /* Slightly darker gold for the subtitle */
     margin-bottom: 30px;
 }
 
@@ -38,22 +44,23 @@ p {
 
 .link-btn {
     text-decoration: none;
-    color: #333;
-    border: 1px solid #333;
+    color: #D4AF37; 
+    border: 1px solid #D4AF37; /* Gold outlines for buttons */
     padding: 15px;
     border-radius: 4px;
     transition: 0.3s;
     font-weight: 500;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.1);
 }
 
 .link-btn:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #D4AF37; /* Invert colors on hover */
+    color: #000000;
 }
 
-/* Highlight your shop link */
+/* Specific styling for your main website link */
 .website {
-    background-color: #d4af37; /* Gold */
-    color: white;
+    background-color: #D4AF37;
+    color: #000;
     border: none;
 }
